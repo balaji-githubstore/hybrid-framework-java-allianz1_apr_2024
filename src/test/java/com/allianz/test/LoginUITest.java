@@ -8,13 +8,13 @@ import com.allianz.base.AutomationWrapper;
 
 public class LoginUITest extends AutomationWrapper {
 
-	@Test
+	@Test(groups = {"ui","smoke"})
 	public void titleTest() {
 		String actualTitle = driver.getTitle();
 		Assert.assertEquals(actualTitle, "OpenEMR Login");
 	}
 
-	@Test
+	@Test(groups = {"ui"})
 	public void appDescriptionTest() {
 		String actualDesc = driver.findElement(By.xpath("//p[contains(text(),'most')]")).getText();
 		Assert.assertEquals(actualDesc,
