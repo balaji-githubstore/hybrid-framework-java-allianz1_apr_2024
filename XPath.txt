@@ -1,0 +1,60 @@
+Xpath 
+
+Absolute xpath -/html/body/div[3]/div[2]/div/div/div[2]/div/div/div[1]/form/div[1]/div[7]/span/span[3]/input
+
+Relative xpath -
+//tagname[@attribute='']
+//tagname[text()='']
+
+Contains
+//tagname[contains(@attribute,'')]
+//tagname[contains(text(),'')]
+
+
+Grouping of xpath - starts at 1
+(//div[@class='checkbox-ui'])[2]
+
+Example:-->verify in chrome - ctlr+f
+//input[@value='-1']
+
+//div[@class='checkbox-ui']
+
+//input[contains(@id,'UserLastName')]
+
+//b[contains(text(),'phpMyAdmin')]
+
+//img[@alt='Go']
+//img[contains(@src,'go.gif')]
+
+
+-------
+
+html
+	frame 1.1
+		frame 1.1.1
+			a tag
+	frame 1.2
+		button1
+		frame 1.2.1
+			button2
+
+
+-----------
+admin,pass,OpenEMR
+accountant,accountant,OpenEMR
+
+
+------
+saul,saul123
+peter,peter123
+kim,kim123
+
+{{saul,saul123},{peter,peter123},{kim,kim123}}
+
+
+
+
+
+
+
+
