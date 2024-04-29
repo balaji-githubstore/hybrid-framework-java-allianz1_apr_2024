@@ -1,0 +1,161 @@
+Installation
+Architecture
+Datatypes
+Conditional statements/Iterative statements
+Methods/Variable - Static vs Non-Static 
+Class & Objects
+
+----
+Encapsulation
+Inheritance
+Polymorphism
+Abstraction 
+	abstract class
+	interface
+
+
+
+
+1 bit - 0 or 1
+
+byte - 8 bits
+
+1 bit - sign (+ or -)
+7 bit - used for storing number
+
+
+0000 0000  to 1111 1111
+
+
+
+
+1 GB - 1024MB
+1 MB - 1024KB
+1 KB - 1024B
+1B - 8 bits
+
+
+
+myName --> L1-->(
+0->b
+1->a
+2->l
+3->a
+
+)
+
+
+
+numbers-->L2-->(
+0->
+1
+2
+3
+4
+)
+
+
+
+
+
+
+12081600
+
+39295804
+
+
+
+Class - Math
+
+Static methods 
+	double sqrt(double input)
+
+
+--------------------------
+
+class - Employee
+empId,empName,empSalary,companyName
+
+(101,saul,1000.2,allianz)
+(102,kim,200,allianz)
+(103,john,3333,allianz)
+
+----
+Class 
+	static variable
+	non-static variable
+
+	static method
+	non-static method
+
+	constructor 
+
+	
+	
+---
+class - ChromeDriver
+
+Non-static Methods-
+	void get(String url)
+
+
+
+
+------------------
+
+
+Student - name, stuid, mailid, address, schoolname
+Professor - name, profid, mailid, address, schoolname
+
+
+
+abstract class Person
+	name
+	mailid
+	address
+	schoolname
+	schooladdress
+	
+	public abstract void printPersonalDetails();
+
+	public void setName(String name)
+	{
+		this.name=name;
+	}
+	
+
+class Student extends Person
+	studentId
+	percentage
+
+	public void printPersonalDetails()
+	{
+		name
+		mailid
+		percentage
+	}
+
+
+Class Professor extends Person
+	profId
+	deptId
+	
+	public void printPersonalDetails()
+	{
+		name
+		mailid
+		profId
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
